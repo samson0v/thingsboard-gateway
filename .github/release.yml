@@ -1,0 +1,11 @@
+changelog:
+  exclude:
+      labels:
+        - Ignore for release
+  categories:
+    - title: "Core"
+      labels:
+        - "core"
+      exclude:
+        labels:
+          - "Bug"
