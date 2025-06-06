@@ -13,7 +13,7 @@
 #     limitations under the License.
 
 exclude-labels:
-  - 'Ignore for release'
+  - 'Ignore for releas'
 categories:
   - title: '📌 Major improvements'
     labels:
