@@ -24,10 +24,10 @@ jobs:
       # otherwise, read permission is required at least
       pull-requests: write
     runs-on: ubuntu-latest
-    with:
-      config-name: release.yml
-      disable-autolabeler: true
     steps:
       - uses: release-drafter/release-drafter@v6
+        with:
+          config-name: release.yml
+          disable-autolabeler: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
