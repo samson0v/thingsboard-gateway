@@ -9,3 +9,9 @@ changelog:
       exclude:
         labels:
           - "Bug"
+    - title: "Modbus"
+      labels:
+        - "modbus"
+      exclude:
+        labels:
+          - "Bug"
