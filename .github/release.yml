@@ -4,9 +4,8 @@ categories:
   - title: '⚛ Core'
     labels:
       - 'Core'
-    exclude:
-      labels:
-        - 'Bug'
+    exclude-labels:
+      - 'Bug'
   - title: '🔗 Connectors'
     labels:
       - 'Connectors'
@@ -25,25 +24,22 @@ categories:
       - 'SNMP'
       - 'Socket'
       - 'XMPP'
-    exclude:
-      labels:
-        - 'Bug'
+    exclude-labels:
+      - 'Bug'
   - title: '🗄 Storages'
     labels:
       - 'Storages'
       - 'Memory'
       - 'File'
       - 'SQLite'
-    exclude:
-      labels:
-        - 'Bug'
+    exclude-labels:
+      - 'Bug'
   - title: 'Other'
     labels:
       - 'Other'
       - 'Tests'
-    exclude:
-      labels:
-        - 'Bug'
+    exclude-labels:
+      - 'Bug'
   - title: '🐛 Bug: Core'
     labels:
       - 'Bug'
