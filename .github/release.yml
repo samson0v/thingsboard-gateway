@@ -1,18 +1,84 @@
 exclude-labels:
   - 'Ignore for release'
 categories:
-  - title: 'Core'
+  - title: '⚛ Core'
     labels:
-      - 'core'
+      - 'Core'
     exclude:
       labels:
         - 'Bug'
-  - title: 'Modbus'
+  - title: '🔗 Connectors'
     labels:
-      - 'modbus'
+      - 'Connectors'
+      - 'Modbus'
+      - 'MQTT'
+      - 'BACnet'
+      - 'BLE'
+      - 'CAN'
+      - 'FTP'
+      - 'KNX'
+      - 'OCPP'
+      - 'ODBC'
+      - 'OPC-UA'
+      - 'Request'
+      - 'REST'
+      - 'SNMP'
+      - 'Socket'
+      - 'XMPP'
     exclude:
       labels:
         - 'Bug'
+  - title: '🗄 Storages'
+    labels:
+      - 'Storages'
+      - 'Memory'
+      - 'File'
+      - 'SQLite'
+    exclude:
+      labels:
+        - 'Bug'
+  - title: 'Other'
+    labels:
+      - 'Other'
+      - 'Tests'
+    exclude:
+      labels:
+        - 'Bug'
+  - title: '🐛 Bug: Core'
+    labels:
+      - 'Bug'
+      - 'Core'
+  - title: '🐛 Bug: Connectors'
+    labels:
+      - 'Bug'
+      - 'Connectors'
+      - 'Modbus'
+      - 'MQTT'
+      - 'BACnet'
+      - 'BLE'
+      - 'CAN'
+      - 'FTP'
+      - 'KNX'
+      - 'OCPP'
+      - 'ODBC'
+      - 'OPC-UA'
+      - 'Request'
+      - 'REST'
+      - 'SNMP'
+      - 'Socket'
+      - 'XMPP'
+  - title: '🐛 Bug: Storages'
+    labels:
+      - 'Storages'
+      - 'Bug'
+      - 'Memory'
+      - 'File'
+      - 'SQLite'
+  - title: '🐛 Bug: Other'
+    labels:
+      - 'Bug'
+      - 'Tests'
+      - 'Other'
 template: |
-  ## Changes
+  ## What's Changed
   $CHANGES
