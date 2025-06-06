@@ -15,3 +15,8 @@ changelog:
       exclude:
         labels:
           - "Bug"
+
+template: |
+  ## Changes
+
+  $CHANGES
