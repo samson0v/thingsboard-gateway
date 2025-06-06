@@ -1,0 +1,18 @@
+exclude-labels:
+  - 'Ignore for release'
+categories:
+  - title: 'Core'
+    labels:
+      - 'core'
+    exclude:
+      labels:
+        - 'Bug'
+  - title: 'Modbus'
+    labels:
+      - 'modbus'
+    exclude:
+      labels:
+        - 'Bug'
+template: |
+  ## Changes
+  $CHANGES
