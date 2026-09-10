@@ -36,3 +36,4 @@ puresnmp>=2.0.0
 slixmpp
 wheel
 PySocks
+python-snap7==3.1.2
